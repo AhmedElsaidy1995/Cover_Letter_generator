@@ -14,7 +14,7 @@ The **Cover Letter Generator** is a web-based application that allows users to c
 ## Installation
 1. Clone this repository:
  ```bash
- git clone <repository_url>
+ git clone https://github.com/AhmedElsaidy1995/Cover_Letter_generator.git
  cd cover-letter-generator
 ```
 2. Install the required dependencies:
@@ -39,5 +39,9 @@ Access the application at http://localhost:8000.
 Enter your details (job title, company,job description) and upload your resume.
 Click the “Submit” button.
 The application will use Langchain and OpenAI to create a customized cover letter for you.
+
+## Screenshot
+![2024-04-10 12-52-40 AM](https://github.com/AhmedElsaidy1995/Cover_Letter_generator/assets/45700852/fca933a4-d931-44ee-9929-438ef5396c4e)
+
 
                                                 
