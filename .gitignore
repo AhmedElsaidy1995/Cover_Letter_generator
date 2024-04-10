@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info
+dist/
+build/
+*.egg
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# IDE specific
+.vscode/
+*.idea/
+
+# Environment
+.env
+.env.local
+
+# Dependency directories
+venv/
+env/
+env36/
+venv36/
+.venv/
+ENV/
+env.bak/
+env1/
+venv1/
+env-old/
+env-new/
+pythonenv/
+
+# Compiled Python files
+*.pyc
+
+# OS or editor generated files
+.DS_Store
+Thumbs.db
