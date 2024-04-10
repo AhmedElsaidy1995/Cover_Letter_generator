@@ -8,20 +8,7 @@ The **Cover Letter Generator** is a web-based application that allows users to c
 - **Langchain Integration**: Langchain is used to interact with OpenAI's language model. It generates context-aware cover letters based on user input.
 - **OpenAI API**: The powerful language model from OpenAI ensures high-quality and contextually relevant cover letters.
 
-## Getting Started
-To get started with the Cover Letter Generator, follow these steps:
-
 ### Prerequisites
-Make sure you have the following installed:
-- **Python 3.7+**: You'll need Python to run the application.
-- **FastAPI**: Install FastAPI using pip:
-pip install fastapi
-
-- **Uvicorn**: Uvicorn is used to serve the FastAPI application. Install it with:
-
-pip install uvicorn
-
-- **Langchain**: Set up Langchain to communicate with the OpenAI API.
 - **OpenAI API Key**: Obtain an API key from OpenAI.
 
 ### Installation
@@ -29,22 +16,28 @@ pip install uvicorn
  ```bash
  git clone <repository_url>
  cd cover-letter-generator
-
+```
 2. Install the required dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 3. Configure your OpenAI API key:
 Create a .env file in the project root.
 Add your API key:
+```bash
 OPENAI_API_KEY=your_api_key_here
+```
 
 4. Run the application:
+```bash
 uvicorn main:app --reload
+```
 
 ### Usage
 Access the application at http://localhost:8000.
-Enter your details (e.g., name, job title, company) and any specific context for the cover letter.
-Click the “Generate Cover Letter” button.
+Enter your details (job title, company,job description) and upload your resume.
+Click the “Submit” button.
 The application will use Langchain and OpenAI to create a customized cover letter for you.
 
                                                 
