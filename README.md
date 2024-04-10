@@ -11,7 +11,7 @@ The **Cover Letter Generator** is a web-based application that allows users to c
 ### Prerequisites
 - **OpenAI API Key**: Obtain an API key from OpenAI.
 
-### Installation
+## Installation
 1. Clone this repository:
  ```bash
  git clone <repository_url>
@@ -31,7 +31,7 @@ OPENAI_API_KEY=your_api_key_here
 
 4. Run the application:
 ```bash
-uvicorn main:app --reload
+python -m uvicorn app:app --reload
 ```
 
 ### Usage
